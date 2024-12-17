@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Jersey+15+Charted&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+VA+Guides&family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Goudy+Bookletter+1911&family=Jersey+15+Charted&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+VA+Guides&family=Playwrite+TZ+Guides&display=swap');
+
+*{
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  background: linear-gradient(to right, #3e5151, #decba4);
+}
+.App {
+  text-align: center;
+}
+.headingOne {
+  font-family: "Jersey 15 Charted", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  color:#3e5151
+}
+.headingTwo {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+strong {
+  font-weight: 600;
+}
+.authorsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.authorsDiv{
+  width: 450px;
+  height:650px;
+  border: 2px solid;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #3e5151;
+  color: #decba4;
+  text-align: center;
+}
+
+button {
+  background: #3e5151;
+  border: 0px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 900;
+  color: #decba4;
+}
